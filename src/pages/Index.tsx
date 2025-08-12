@@ -209,68 +209,76 @@ const Index = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8">
-              <div className="flex flex-col md:flex-row items-start gap-6 animate-fade-in">
+              <div className="flex flex-col md:flex-row items-center gap-8 animate-fade-in group">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white font-display font-bold text-xl">
+                  <div className="w-24 h-24 bg-gradient-to-br from-primary to-secondary rounded-3xl flex items-center justify-center text-white font-display font-bold text-2xl group-hover:animate-glow-pulse transition-all duration-500 relative">
                     1944
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary/50 to-secondary/50 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-display font-semibold mb-2">Основание техникума</h3>
-                  <p className="text-muted-foreground font-body">
-                    В послевоенный период открылось учебное заведение для подготовки 
-                    квалифицированных специалистов в селе Новоильинск Заиграевского района.
+                <div className="glass-effect p-8 rounded-3xl flex-1 hover:neon-glow transition-all duration-500">
+                  <h3 className="text-2xl font-display font-semibold mb-4 gradient-text">Основание техникума</h3>
+                  <p className="text-foreground/80 font-body text-lg leading-relaxed">
+                    В трудные послевоенные годы в селе Новоильинск Заиграевского района был основан
+                    техникум для подготовки квалифицированных кадров для восстановления народного хозяйства.
+                    Учебное заведение создано как межотраслевой техникум республиканского значения.
                   </p>
                 </div>
               </div>
 
               <Separator />
 
-              <div className="flex flex-col md:flex-row items-start gap-6 animate-fade-in">
+              <div className="flex flex-col md:flex-row-reverse items-center gap-8 animate-fade-in group">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center text-white font-display font-bold text-xl">
-                    1970
+                  <div className="w-24 h-24 bg-gradient-to-br from-secondary to-accent rounded-3xl flex items-center justify-center text-white font-display font-bold text-xl group-hover:animate-glow-pulse transition-all duration-500 relative">
+                    1970-80
+                    <div className="absolute inset-0 bg-gradient-to-br from-secondary/50 to-accent/50 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-display font-semibold mb-2">Расширение специальностей</h3>
-                  <p className="text-muted-foreground font-body">
-                    Открыты новые отделения: сельскохозяйственное, техническое и экономическое, 
-                    что позволило готовить специалистов широкого профиля.
+                <div className="glass-effect p-8 rounded-3xl flex-1 hover:neon-glow transition-all duration-500">
+                  <h3 className="text-2xl font-display font-semibold mb-4 gradient-text">Развитие межотраслевого профиля</h3>
+                  <p className="text-foreground/80 font-body text-lg leading-relaxed">
+                    Техникум становится ведущим межотраслевым образовательным учреждением.
+                    Открываются новые специальности: автомеханик, строительные специальности,
+                    сельскохозяйственный и технический профили подготовки.
                   </p>
                 </div>
               </div>
 
               <Separator />
 
-              <div className="flex flex-col md:flex-row items-start gap-6 animate-fade-in">
+              <div className="flex flex-col md:flex-row items-center gap-8 animate-fade-in group">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center text-white font-display font-bold text-xl">
-                    2000
+                  <div className="w-24 h-24 bg-gradient-to-br from-accent to-primary rounded-3xl flex items-center justify-center text-white font-display font-bold text-xl group-hover:animate-glow-pulse transition-all duration-500 relative">
+                    2002
+                    <div className="absolute inset-0 bg-gradient-to-br from-accent/50 to-primary/50 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-display font-semibold mb-2">Модернизация образования</h3>
-                  <p className="text-muted-foreground font-body">
-                    Внедрение современных образовательных технологий, компьютеризация 
-                    учебного процесса и создание современной материально-технической базы.
+                <div className="glass-effect p-8 rounded-3xl flex-1 hover:neon-glow transition-all duration-500">
+                  <h3 className="text-2xl font-display font-semibold mb-4 gradient-text">Государственная аккредитация</h3>
+                  <p className="text-foreground/80 font-body text-lg leading-relaxed">
+                    В октябре 2002 года техникум прошел государственную регистрацию как
+                    Государственное автономное профессиональное образовательное учреждение.
+                    Создание филиалов в Бичурском и других районах Республики Бурятия.
                   </p>
                 </div>
               </div>
 
               <Separator />
 
-              <div className="flex flex-col md:flex-row items-start gap-6 animate-fade-in">
+              <div className="flex flex-col md:flex-row-reverse items-center gap-8 animate-fade-in group">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white font-display font-bold text-xl">
+                  <div className="w-24 h-24 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl flex items-center justify-center text-white font-display font-bold text-2xl group-hover:animate-glow-pulse transition-all duration-500 relative animate-float">
                     2024
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary/50 via-secondary/50 to-accent/50 rounded-3xl blur-xl opacity-100 animate-glow-pulse"></div>
                   </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-display font-semibold mb-2">Юбилейный год</h3>
-                  <p className="text-muted-foreground font-body">
-                    80 лет служения образованию! Техникум является ведущим учебным заведением 
-                    региона, выпустившим десятки тысяч квалифицированных специалистов.
+                <div className="glass-effect p-8 rounded-3xl flex-1 neon-glow">
+                  <h3 className="text-2xl font-display font-semibold mb-4 gradient-text">80 лет образовательного наследия!</h3>
+                  <p className="text-foreground/80 font-body text-lg leading-relaxed">
+                    Сегодня ГАПОУ РБ «РМТ» — это современное многопрофильное учебное заведение
+                    с филиалами по всей республике. Техникум подготовил десятки тысяч специалистов
+                    для различных отраслей экономики Бурятии и всей России.
                   </p>
                 </div>
               </div>
